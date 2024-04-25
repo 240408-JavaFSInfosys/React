@@ -19,7 +19,7 @@ export const EmployeeContainer: React.FC<any> = (incomingData:any) => {
         console.log("Employees:")
         console.log(employees)
 
-    }, [])
+    }, ) //no square brackets! now this will run on render, and every time state changes
 
     return(
         <div>
