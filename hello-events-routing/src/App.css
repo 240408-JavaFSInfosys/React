@@ -1,0 +1,7 @@
+/*Here's a good way to set a site-wide background image*/
+body{
+  background-image: url("../public/office.jpeg");
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
