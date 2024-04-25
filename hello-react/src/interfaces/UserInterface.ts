@@ -1,12 +1,10 @@
 /* Hopefully you all remember how Java Interfaces work :)
-In TS, they have very similar behavior, but we store OBJECTS, not abstact method
+In TS, they have very similar behavior, but we store OBJECTS, not abstact methods
 
 I think these are MOST comparable to Model Classes in Java
 We will be making User objects based on this Interface
 
 We will make a UserComponent that uses this Interface*/
-
-
 export interface UserInterface {
     firstName?:string, 
     lastName?:string,
@@ -14,4 +12,4 @@ export interface UserInterface {
     email?:string
 }
 
-//? just means it's optional AKA nullable. This lends very well to object flexibility
+// ? just means it's optional AKA nullable. This lends very well to object flexibility
