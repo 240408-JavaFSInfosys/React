@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import { Hypotenuse } from './components/HypotenuseComponent/Hypotenuse';
-import { EmployeeContainer } from './components/EmployeeContainer/EmployeeContainer';
+import { EmployeeContainer } from './components/EmployeeContainerComponent/EmployeeContainer';
 import { data } from './employeeData';
 
 
